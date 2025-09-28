@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import mysql.connector as c
 
-my_con = c.connect(host="localhost", user="root", passwd="arnold999", database="student")
+my_con = c.connect(host="localhost", user="root", passwd="####", database="student")
 cursor = my_con.cursor()
 
 
@@ -62,3 +62,4 @@ cancel_btn = tk.Button(window, text="Cancel", width=6, font=(window_font, window
 cancel_btn.place(x=x_axis + 280, y=y_axis + 80)
 
 window.mainloop()
+
